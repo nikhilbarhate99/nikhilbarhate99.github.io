@@ -1,87 +1,98 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
+		<meta charset="utf-8">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 		<title> Nikhil Barhate </title>
-		<link rel="icon" type="image/ico" href="fry.jpg" />
-		<style>
-			body {
 
-				margin: 4em auto;
-			    max-width: 42em;
+		<link id="icon" rel="icon" type="image/ico" href="fry.jpg" />
 
-			    /* font: Helvetica;
-				font-family: monospace; */
-				font-family: 'Lato', Verdana, Helvetica, sans-serif;
+		<link id="stylesheet" rel="stylesheet" type="text/css" href="style_light.css"/>
 
-				color: #000000;
+		<script>
 
-				font-size:16px;
-				line-height: 30px;
-
-				text-align: center;
-				background-color: #FFFFFF;
+			function setStyleSheet(style_url){
+				document.getElementById('stylesheet').setAttribute('href', style_url);
+				sessionStorage.setItem('style_url', style_url);
 			}
 
-			h1 {
-				font-size: 22px;
-				padding: 0;
-				margin-bottom: 10px;
-				text-align: left;
+			if (sessionStorage.getItem('style_url') !== null) {
+				setStyleSheet(sessionStorage.getItem('style_url'));
 			}
 
-			p {
-				text-align: justify;
+			else{
+				setStyleSheet('style_light.css');
 			}
 
-		</style>
+		</script>
+
 	</head>
 
 	<body>
+		<!-- <hr style="margin-top: 20px;margin-bottom: 20px;"> -->
 
-		<hr style="margin-top: 15px;margin-bottom: 15px;">
+		<div style="margin-top: 10px;margin-bottom: 10px;"></div>
 
- 		<h1> Nikhil Barhate </h1>
+ 		<h1>
+			<a href="index.html" style="color:inherit;font-size: inherit;font-weight: inherit;padding: inherit;text-align: inherit;">Nikhil Barhate</a>
 
-		<hr style="margin-top: 15px;margin-bottom: 40px;">
+			<a onclick="setStyleSheet('style_dark.css');" href="" style="float: right;">/&nbsp;Dark</a>
+			<a onclick="setStyleSheet('style_light.css');" href="" style="float: right;">Light&nbsp;</a>
+		</h1>
 
+		<!-- <img src="fry.jpg" alt="picture" width="128" height="128"> -->
+
+		<div style="margin-top: 10px;margin-bottom: 20px;"></div>
+
+		<!-- <hr style="margin-top: 20px;margin-bottom: 20px;"> -->
 
  		<p>
- 			I am an undergraduate student at Sardar Patel Institute of Technology, majoring in Electronics Engineering.
- 		</p>
- 		
-		<p>
- 			My research interests are reinforcement learning and imitation learning for autonomous planning and decision-making.
- 		</p>
- 
-		<p>
-			Apart from RL I am also interested in probabilistic machine learning. <br>
-			I am interested in understanding how systems learn through simulation, simulation learning processes. I am particularly interested in learning from examples and how they are taught.
- 		</p>
-
-		<!-- <hr style="margin-top: 15px;margin-bottom: 15px;"> -->
-
-		<!-- <p style="font-size: 14px;">
-			[Email] : nikhil [dot] barhate [at] spit [dot] ac [dot] in
-		</p>  -->
-
-		<!-- <hr style="margin-top: 15px;margin-bottom: 15px;"> -->
-
-
-		<p style="text-align: left;margin-top: 40px;">
-				<a href="nikhilbarhate99.github.io/docs/NikhilBarhateResume.pdf">[CV]</a>
-				&emsp;
-				<a href="https://github.com/nikhilbarhate99/">[GitHub]</a>
-				&emsp;
-				<a href="https://twitter.com/nikhilbarhate99">[Twitter]</a>
-				&emsp;
-				<a href="https://www.linkedin.com/in/nikhilbarhate99/">[LinkedIn]</a>
-				<!-- &emsp;
-				<a href="https://github.com/nikhilbarhate99/">[Blog]</a>
-				&emsp;
-				<a href="https://github.com/nikhilbarhate99/">[Publications]</a> -->
+			I am a Research Intern at the <a href="https://val.cds.iisc.ac.in/" target="_blank" rel="noopener noreferrer" style="font-size: inherit;">Video Analytics Lab</a> at the Indian Institute of Science where I am supervised by Prof. R. Venkatesh Babu on Unsupervised Domain Adaptation for Semantic Segementation.
 		</p>
 
-		<hr style="margin-top: 15px;margin-bottom: 15px;">
+		<p style="margin-bottom: -10px;">
+			I am broadly interested in :
+ 		</p>
+
+		<ul style="text-align: left;">
+			<li>Distributed Systems</li>
+			<li>Machine Learning Research, Engineering and Infrastructure</li>
+			<li>Applied Machine Learning</li>
+		</ul>
+
+ 		<p>
+			My research interests include Geometric Deep Learning, Self-Supervised Learning, Reinforcement Learning and Imitation Learning. Especially applied to generative modelling, representation learning and autonomous systems.
+ 		</p>
+
+		<p>
+			I also try to learn about and keep up with other interesting and exciting fields including Robotics, Quantum Computing, Battery Technology, Automated Drugs and Materials Discovery, Synthetic Biology, Space Exploration, Sustainable Nuclear and Renewable Energy.
+ 		</p>
+
+		<p style="text-align: left;margin-top: 10px;">
+
+			<a href="CV.pdf" target="_blank" rel="noopener noreferrer"> CV </a>
+			&emsp;
+			<a href="https://github.com/nikhilbarhate99/" target="_blank" rel="noopener noreferrer"> GitHub </a>
+			&emsp;
+			<a href="https://www.linkedin.com/in/nikhilbarhate99/" target="_blank" rel="noopener noreferrer"> LinkedIn </a>
+			&emsp;
+			<a href="https://twitter.com/nikhilbarhate99" target="_blank" rel="noopener noreferrer"> Twitter </a>
+			<!-- &emsp;
+			<a href="blog_contents.html">Blog</a>
+			&emsp;
+			<a href="https://scholar.google.com/">Publications</a> -->
+
+		</p>
+
+		<!-- <hr style="margin-top: 10px;margin-bottom: 10px;"> -->
+
+		<div style="margin-top: 10px;margin-bottom: 10px;"></div>
 
 	</body>
+
 </html>
