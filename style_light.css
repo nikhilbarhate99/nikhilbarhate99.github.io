@@ -1,16 +1,16 @@
 
 body {
 
-    max-width: 500px;
+    max-width: 31.25em;
 
     margin: 1em auto;
 
-    padding: 20px;
+    padding: 1.25em;
 
     font-family: 'Roboto', sans-serif;
 
-    font-size:16px;
-    line-height: 30px;
+    font-size: 1em;
+    line-height: 1.875em;
 
     text-align: left;
 
@@ -28,7 +28,7 @@ body {
 
 a {
     color: #3037ff;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ hr {
 
 h1 {
     color: #000000;
-    font-size: 28px;
+    font-size: 1.75em;
     font-weight: bold;
     padding: 0;
     text-align: left;
@@ -60,5 +60,5 @@ h1 {
 
 p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 1em;
 }
