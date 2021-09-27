@@ -1,10 +1,14 @@
 
 body {
+    margin:0;
+    background-color: #ededed;
 
+    /* background-image: linear-gradient(#edeefc, #ededed); */
+}
+
+div {
     max-width: 540px;
-
     margin: 5px auto;
-
     padding: 30px;
 
     font-family: 'Roboto', sans-serif;
@@ -17,27 +21,29 @@ body {
     color: #1b1b1c;
     background-color: #FFFFFF;
 
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px gray;
 }
 
 p {
-    /* text-align: left; */
-    text-align: justify;
+    text-align: left;
+    /* text-align: justify; */
 }
 
 
 h1 {
-
     color: #000000;
-
-    background-color: #edeefc;
-
-    font-size: 32px;
-    font-weight: bold;
-    padding: 20px 2px;
-
-    border-radius: 4px;
+    background-color: #FFFFFF;
 
     text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 0px 0px;
+
+    border-radius: 4px;
 }
 
 a {
@@ -48,6 +54,8 @@ a {
     font-weight: bold;
     text-decoration: none;
     /* border-bottom: 3px solid red; */
+
+    margin: 0px;
 
     padding: 2px 4px;
 
@@ -63,7 +71,7 @@ a:hover {
 }
 
 
-.header-links {
+.header_links {
     color: #000000;
     text-decoration: none;
 
@@ -79,7 +87,7 @@ a:hover {
     background-color: #edeefc;
 }
 
-.para-links {
+.para_links {
     font-size: inherit;
     font-weight: bold;
 }
@@ -88,9 +96,15 @@ a:hover {
     background-color: #edeefc;
     height: 10px;
     border-radius: 4px;
+
+    border: none;
+    box-shadow: none;
+    margin: 0px;
+    padding: 0px;
+
 }
 
-.author-highlight {
+.author_highlight {
     font-weight: bold;
     border-bottom: 1px solid black;
 }

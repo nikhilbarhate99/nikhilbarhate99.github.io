@@ -14,60 +14,45 @@
 		<link id="icon" rel="icon" type="image/ico" href="fry.jpg" />
 		<link id="stylesheet" rel="stylesheet" type="text/css" href="style_light.css"/>
 
-		<script>
-			function setStyleSheet(style_url){
-				document.getElementById('stylesheet').setAttribute('href', style_url);
-				sessionStorage.setItem('current_style_url', style_url);
-			}
-
-			if (sessionStorage.getItem('current_style_url') !== null) {
-				setStyleSheet(sessionStorage.getItem('current_style_url'));
-			}
-			else{
-				setStyleSheet('style_light.css');
-			}
-		</script>
-
 	</head>
 
 	<body>
 
+	<div>
 		<!-- <div class="horizontal_line" style="margin-top: 10px;margin-bottom: 20px;"></div> -->
 
  		<h1>
-
-			<!-- Nikhil Barhate -->
-
-			<a class="header-links" href="https://nikhilbarhate99.github.io">Nikhil Barhate</a>
-
+			Nikhil Barhate
+			<!-- <a class="header_links" href="https://nikhilbarhate99.github.io">Nikhil Barhate</a> -->
 		</h1>
 
 		<!-- <div class="horizontal_line" style="margin-top: 10px;margin-bottom: 20px;"></div> -->
+		<hr>
 
-		<p style="text-align: left;margin-top: 30px;">
-
+		<p style="text-align: left; margin: 5px 0px;">
 			<a href="CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-			&nbsp;
+			&nbsp;|&nbsp;
 			<a href="https://github.com/nikhilbarhate99/" target="_blank" rel="noopener noreferrer">GitHub</a>
-			&nbsp;
+			&nbsp;|&nbsp;
 			<a href="https://www.linkedin.com/in/nikhilbarhate99/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-			&nbsp;
+			&nbsp;|&nbsp;
 			<a href="https://twitter.com/nikhilbarhate99" target="_blank" rel="noopener noreferrer">Twitter</a>
-			<!-- &nbsp;
+			<!-- &nbsp;|&nbsp;
 			<a href="blog_contents.html">Blog</a>
-			&nbsp;
+			&nbsp;|&nbsp;
 			<a href="https://scholar.google.com/">Google Scholar</a> -->
 		</p>
 
+		<hr>
 		<!-- <div class="horizontal_line" style="margin-top: 10px;margin-bottom: 20px;"></div> -->
 
-		<p style="margin-top: 32px;">
+		<p style="margin-top: 30px;">
 			I am a Research Visitor at
-			<a class="para-links" href="https://mila.quebec/en/mila/" target="_blank" rel="noopener noreferrer">Mila</a> - Quebec Artificial Intelligence Institute,
+			<a class="para_links" href="https://mila.quebec/en/mila/" target="_blank" rel="noopener noreferrer">Mila</a> - Quebec Artificial Intelligence Institute,
 			working on
 			developing mechanisms to induce Causal Structure in Deep Learning,
-			supervised by <a class="para-links" href="https://anirudh9119.github.io/" target="_blank" rel="noopener noreferrer">Anirudh Goyal</a>
-			and Prof. <a class="para-links" href="https://yoshuabengio.org/profile/" target="_blank" rel="noopener noreferrer">Yoshua Bengio</a>.
+			supervised by <a class="para_links" href="https://anirudh9119.github.io/" target="_blank" rel="noopener noreferrer">Anirudh Goyal</a>
+			and Prof. <a class="para_links" href="https://yoshuabengio.org/profile/" target="_blank" rel="noopener noreferrer">Yoshua Bengio</a>.
 		</p>
 
 		<p style="margin-bottom: -10px;">
@@ -93,22 +78,24 @@
  		</p>
 
 		<!-- <p>
-			Previously, I was supervised by Professor <a class="para-links" href="http://cds.iisc.ac.in/faculty/venky/" target="_blank" rel="noopener noreferrer">R. Vekatesh Babu</a>
-			on Domain Adaptation for Semantic Segmentation at <a class="para-links" href="https://val.cds.iisc.ac.in/index.html" target="_blank" rel="noopener noreferrer">VAL, IISc</a>.
+			Previously, I was supervised by Professor <a class="para_links" href="http://cds.iisc.ac.in/faculty/venky/" target="_blank" rel="noopener noreferrer">R. Vekatesh Babu</a>
+			on Domain Adaptation for Semantic Segmentation at <a class="para_links" href="https://val.cds.iisc.ac.in/index.html" target="_blank" rel="noopener noreferrer">VAL, IISc</a>.
 		</p> -->
 
-		<!-- <p style="margin-top: 30px; font-size: 18px; font-weight: bold">
+		<hr>
+
+		<!-- <p style="margin-top: 30px; font-size: 20px; font-weight: bold">
 			Publications:
  		</p>
 
-		<ul style="margin-bottom: 50px; text-align: left;">
+		<ul style="margin-bottom: 30px; text-align: left;">
 			<li style="margin-bottom: 20px;">
 				<span style="font-weight: bold">
 					This paper is all you need 1
 				</span>
 				<br>
 				Author 1,
-				<span class="author-highlight">Author 2</span>,
+				<span class="author_highlight">Author 2</span>,
 				Author 3, Author 4, Author 5
 				<br>
 				International conference on something
@@ -124,7 +111,7 @@
 				</span>
 				<br>
 				Author 1,
-				<span class="author-highlight">Author 2</span>,
+				<span class="author_highlight">Author 2</span>,
 				Author 3, Author 4, Author 5
 				<br>
 				International conference on something
@@ -141,7 +128,7 @@
 				</span>
 				<br>
 				Author 1,
-				<span class="author-highlight">Author 2</span>,
+				<span class="author_highlight">Author 2</span>,
 				Author 3, Author 4, Author 5
 				<br>
 				International conference on something
@@ -157,7 +144,7 @@
 				</span>
 				<br>
 				Author 1,
-				<span class="author-highlight">Author 2</span>,
+				<span class="author_highlight">Author 2</span>,
 				Author 3, Author 4, Author 5
 				<br>
 				International conference on something
@@ -167,9 +154,12 @@
 				<a href="https://github.com/" target="_blank" rel="noopener noreferrer">code</a>
 			</li>
 
-		</ul> -->
+		</ul>
 
-		<div class="horizontal_line" style="margin-top: 10px;margin-bottom: 20px;"></div>
+		<hr> -->
+		<!-- <div class="horizontal_line" style="margin-top: 10px;margin-bottom: 20px;"></div> -->
+
+	</div>
 
 	</body>
 
